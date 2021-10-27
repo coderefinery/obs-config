@@ -49,15 +49,39 @@ selectable layout, **sources** are items within the scene.)  We have done that h
 
 The following screens are included in this collection:
 
-### Teaching_Streaming_ZoomCapture
+### TeachingStreamingSimple
 
-This is used for livestreaming a course by capturing Zoom.
+This is a simple teaching streaming setup capturing Zoom on a
+dedicated computer.  The scenes:
+- Title: title card
+- Gallery: people
+- Desktop: Zoom desktop capture
+- Notes: HackMD or other capture
+
+How to set it up:
+
+- Title: configure scene as you would like.  This is a static image.
+- Start Zoom.  Under general settings, put it in "Dual monitor mode"
+- `_Camera` scene: edit the `_ZoomGalleryCapture` source (Right click
+  → Properties) and select the Zoom gallery view.  Move this window
+  onto your external monitor.
+- `_Desktop capture` scene: edit the `Desktop (remote) window capture`
+  source and select the other Zoom window.  Adjust the size of that
+  Zoom window until it fills the preview as exactly as possible.  Move
+  this window onto your external monitor.
+- `_HackMD` scene: edit the `_HackMDCapture` source to select your
+  browser window.  Like before, adjust the window so that it fills the
+  preview.  Move this window off to the side.
+
+Adjust any other settings you may need.
 
 
 ### Demo recording
 
 This is designed for recording 840x1080 demos on your local computer.
-It can also be used
+It can also be used for recording a demo at the same time as
+re-broadcasting it to Zoom without having to use the Zoom recording
+(so participants can't appear or be heard in the recording).
 
 
 
