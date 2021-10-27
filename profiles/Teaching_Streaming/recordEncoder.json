@@ -1,0 +1,9 @@
+{
+    "bitrate": 10000,
+    "crf": 20,
+    "preset": "slow",
+    "profile": "main",
+    "rate_control": "CRF",
+    "use_bufsize": false,
+    "x264opts": ""
+}
