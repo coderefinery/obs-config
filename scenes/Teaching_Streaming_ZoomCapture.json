@@ -4,82 +4,7 @@
         "deinterlace_field_order": 0,
         "deinterlace_mode": 0,
         "enabled": true,
-        "filters": [
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "gain_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Gain",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "db": 0.10000000000000001
-                },
-                "sync": 0,
-                "versioned_id": "gain_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": true,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "compressor_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Compressor",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {},
-                "sync": 0,
-                "versioned_id": "compressor_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": true,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "noise_suppress_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Noise Suppression",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "suppress_level": -10
-                },
-                "sync": 0,
-                "versioned_id": "noise_suppress_filter",
-                "volume": 1.0
-            }
-        ],
-        "flags": 2,
+        "flags": 0,
         "hotkeys": {
             "libobs.mute": [],
             "libobs.push-to-mute": [],
@@ -87,10 +12,10 @@
             "libobs.unmute": []
         },
         "id": "pulse_input_capture",
-        "mixers": 1,
+        "mixers": 255,
         "monitoring_type": 0,
-        "muted": false,
-        "name": "Yeti",
+        "muted": true,
+        "name": "Mic",
         "prev_ver": 436273154,
         "private_settings": {},
         "push-to-mute": false,
@@ -98,249 +23,7 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "alsa_input.usb-C-Media_Electronics_Inc._USB_Advanced_Audio_Device-00.iec958-stereo"
-        },
-        "sync": 0,
-        "versioned_id": "pulse_input_capture",
-        "volume": 0.93609333038330078
-    },
-    "AuxAudioDevice2": {
-        "balance": 0.5,
-        "deinterlace_field_order": 0,
-        "deinterlace_mode": 0,
-        "enabled": true,
-        "filters": [
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "gain_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Gain",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "db": 5.0999999999999996
-                },
-                "sync": 0,
-                "versioned_id": "gain_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "compressor_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Compressor",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {},
-                "sync": 0,
-                "versioned_id": "compressor_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "noise_suppress_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Noise Suppression",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "suppress_level": -8
-                },
-                "sync": 0,
-                "versioned_id": "noise_suppress_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "gain_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Gain2",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "db": 20.0
-                },
-                "sync": 0,
-                "versioned_id": "gain_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "noise_gate_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Noise Gate",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "attack_time": 5,
-                    "close_threshold": -36.0,
-                    "hold_time": 25,
-                    "open_threshold": -20.0
-                },
-                "sync": 0,
-                "versioned_id": "noise_gate_filter",
-                "volume": 1.0
-            }
-        ],
-        "flags": 2,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": [],
-            "libobs.unmute": []
-        },
-        "id": "pulse_input_capture",
-        "mixers": 1,
-        "monitoring_type": 0,
-        "muted": true,
-        "name": "Headphones",
-        "prev_ver": 436273154,
-        "private_settings": {},
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "settings": {
-            "device_id": "alsa_input.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo"
-        },
-        "sync": 0,
-        "versioned_id": "pulse_input_capture",
-        "volume": 0.68147200345993042
-    },
-    "AuxAudioDevice3": {
-        "balance": 0.5,
-        "deinterlace_field_order": 0,
-        "deinterlace_mode": 0,
-        "enabled": true,
-        "filters": [
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "noise_suppress_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Noise Suppression",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "suppress_level": 0
-                },
-                "sync": 0,
-                "versioned_id": "noise_suppress_filter",
-                "volume": 1.0
-            },
-            {
-                "balance": 0.5,
-                "deinterlace_field_order": 0,
-                "deinterlace_mode": 0,
-                "enabled": false,
-                "flags": 0,
-                "hotkeys": {},
-                "id": "noise_gate_filter",
-                "mixers": 255,
-                "monitoring_type": 0,
-                "muted": false,
-                "name": "Noise Gate",
-                "prev_ver": 436273154,
-                "private_settings": {},
-                "push-to-mute": false,
-                "push-to-mute-delay": 0,
-                "push-to-talk": false,
-                "push-to-talk-delay": 0,
-                "settings": {
-                    "open_threshold": -20.0
-                },
-                "sync": 0,
-                "versioned_id": "noise_gate_filter",
-                "volume": 1.0
-            }
-        ],
-        "flags": 2,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": [],
-            "libobs.unmute": []
-        },
-        "id": "pulse_input_capture",
-        "mixers": 253,
-        "monitoring_type": 0,
-        "muted": true,
-        "name": "Camera",
-        "prev_ver": 436273154,
-        "private_settings": {
-            "mixer_hidden": false
-        },
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "settings": {
-            "device_id": "alsa_input.usb-046d_C922_Pro_Stream_Webcam_846E675F-02.iec958-stereo"
+            "device_id": "default"
         },
         "sync": 0,
         "versioned_id": "pulse_input_capture",
@@ -413,8 +96,8 @@
         "id": "pulse_output_capture",
         "mixers": 255,
         "monitoring_type": 0,
-        "muted": false,
-        "name": "A_Desktop Audio",
+        "muted": true,
+        "name": "A_Desktop_Capture",
         "prev_ver": 436273154,
         "private_settings": {},
         "push-to-mute": false,
@@ -422,14 +105,14 @@
         "push-to-talk": false,
         "push-to-talk-delay": 0,
         "settings": {
-            "device_id": "alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.iec958-stereo.monitor"
+            "device_id": "default"
         },
         "sync": 0,
         "versioned_id": "pulse_output_capture",
-        "volume": 0.081945411860942841
+        "volume": 0.036142036318778992
     },
-    "current_program_scene": "Title",
-    "current_scene": "Title",
+    "current_program_scene": "Title-Card",
+    "current_scene": "Title-Card",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -481,19 +164,19 @@
     "scaling_off_y": 0.0,
     "scene_order": [
         {
-            "name": "Title"
+            "name": "Title-Card"
         },
         {
-            "name": "Gallery"
+            "name": "Instructor-Gallery"
         },
         {
-            "name": "Local"
+            "name": "Screenshare"
         },
         {
-            "name": "Remote"
+            "name": "Broadcaster-Screen"
         },
         {
-            "name": "Notes"
+            "name": "HackMD"
         },
         {
             "name": "---"
@@ -502,13 +185,13 @@
             "name": "_Camera"
         },
         {
-            "name": "_Desktop(local) overlay"
+            "name": "_Director-Screen"
         },
         {
-            "name": "_Desktop (remote) overlay"
+            "name": "_Screenshare-Zoom-Capture"
         },
         {
-            "name": "_HackMD"
+            "name": "_HackMD-Capture"
         },
         {
             "name": "Empty"
@@ -534,7 +217,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "41943142\r\nIntro to High Performance Computing - HackMD — Mozilla Firefox\r\nNavigator",
+                "capture_window": "39850325\r\nNEIC AHM 2022 hackathon: online teaching - HackMD — Mozilla Firefox\r\nNavigator",
                 "cut_top": 120,
                 "show_cursor": false
             },
@@ -734,7 +417,7 @@
                 "libobs.hide_scene_item.Clock": [],
                 "libobs.hide_scene_item.TitleText": [],
                 "libobs.hide_scene_item.URL": [],
-                "libobs.hide_scene_item._HackMD": [],
+                "libobs.hide_scene_item._HackMD-Capture": [],
                 "libobs.hide_scene_item.python-for-scicomp": [],
                 "libobs.show_scene_item.ASC logo": [],
                 "libobs.show_scene_item.Background color": [],
@@ -742,14 +425,14 @@
                 "libobs.show_scene_item.Clock": [],
                 "libobs.show_scene_item.TitleText": [],
                 "libobs.show_scene_item.URL": [],
-                "libobs.show_scene_item._HackMD": [],
+                "libobs.show_scene_item._HackMD-Capture": [],
                 "libobs.show_scene_item.python-for-scicomp": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Title",
+            "name": "Title-Card",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -862,7 +545,7 @@
                         "group_item_backup": false,
                         "id": 11,
                         "locked": true,
-                        "name": "_HackMD",
+                        "name": "_HackMD-Capture",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1012,15 +695,15 @@
                     }
                 ],
                 "libobs.hide_scene_item._Camera": [],
-                "libobs.hide_scene_item._Desktop(local) overlay": [],
+                "libobs.hide_scene_item._Director-Screen": [],
                 "libobs.show_scene_item._Camera": [],
-                "libobs.show_scene_item._Desktop(local) overlay": []
+                "libobs.show_scene_item._Director-Screen": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Local",
+            "name": "Broadcaster-Screen",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1034,8 +717,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1280.0,
-                            "y": 720.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1046,7 +729,7 @@
                         "group_item_backup": false,
                         "id": 1,
                         "locked": false,
-                        "name": "_Desktop(local) overlay",
+                        "name": "_Director-Screen",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1069,8 +752,8 @@
                         "bounds_align": 0,
                         "bounds_type": 0,
                         "crop_bottom": 0,
-                        "crop_left": 59,
-                        "crop_right": 59,
+                        "crop_left": 0,
+                        "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
                         "id": 18,
@@ -1083,8 +766,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.70866143703460693,
-                            "y": 0.70866143703460693
+                            "x": 0.57480317354202271,
+                            "y": 0.57480317354202271
                         },
                         "scale_filter": "bilinear",
                         "visible": true
@@ -1112,7 +795,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "_Desktop(local) overlay",
+            "name": "_Director-Screen",
             "prev_ver": 436273154,
             "private_settings": {
                 "show_in_multiview": false
@@ -1157,8 +840,8 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
@@ -1177,7 +860,7 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.03125,
+                            "x": 1.0,
                             "y": 1.0
                         },
                         "scale_filter": "disable",
@@ -1211,7 +894,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 1,
+                "id_counter": 2,
                 "items": []
             },
             "sync": 0,
@@ -1232,15 +915,15 @@
                     }
                 ],
                 "libobs.hide_scene_item._Camera": [],
-                "libobs.hide_scene_item._Desktop (remote) overlay": [],
+                "libobs.hide_scene_item._Screenshare-Zoom-Capture": [],
                 "libobs.show_scene_item._Camera": [],
-                "libobs.show_scene_item._Desktop (remote) overlay": []
+                "libobs.show_scene_item._Screenshare-Zoom-Capture": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Remote",
+            "name": "Screenshare",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1266,7 +949,7 @@
                         "group_item_backup": false,
                         "id": 13,
                         "locked": false,
-                        "name": "_Desktop (remote) overlay",
+                        "name": "_Screenshare-Zoom-Capture",
                         "pos": {
                             "x": 420.0,
                             "y": 540.0
@@ -1289,9 +972,9 @@
                         "bounds_align": 0,
                         "bounds_type": 0,
                         "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
+                        "crop_left": 60,
+                        "crop_right": 60,
+                        "crop_top": 4,
                         "group_item_backup": false,
                         "id": 12,
                         "locked": false,
@@ -1303,8 +986,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.70866143703460693,
-                            "y": 0.70866143703460693
+                            "x": 0.57480317354202271,
+                            "y": 0.57480317354202271
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1326,17 +1009,17 @@
                 "libobs.hide_scene_item.ASC logo": [],
                 "libobs.hide_scene_item.CR logo": [],
                 "libobs.hide_scene_item._Camera": [],
-                "libobs.hide_scene_item._HackMD": [],
+                "libobs.hide_scene_item._HackMD-Capture": [],
                 "libobs.show_scene_item.ASC logo": [],
                 "libobs.show_scene_item.CR logo": [],
                 "libobs.show_scene_item._Camera": [],
-                "libobs.show_scene_item._HackMD": []
+                "libobs.show_scene_item._HackMD-Capture": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Gallery",
+            "name": "Instructor-Gallery",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1347,6 +1030,64 @@
                 "custom_size": false,
                 "id_counter": 6,
                 "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "_HackMD-Capture",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 243.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 4,
+                        "bounds": {
+                            "x": 840.0,
+                            "y": 1080.0
+                        },
+                        "bounds_align": 4,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 60,
+                        "crop_right": 60,
+                        "crop_top": 4,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "_Camera",
+                        "pos": {
+                            "x": 420.0,
+                            "y": 102.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -1379,35 +1120,6 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "_HackMD",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 243.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
                             "x": 118.0,
                             "y": 117.0
                         },
@@ -1424,35 +1136,6 @@
                         "pos": {
                             "x": 722.0,
                             "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 4,
-                        "bounds": {
-                            "x": 840.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 4,
-                        "bounds_type": 2,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 6,
-                        "locked": false,
-                        "name": "_Camera",
-                        "pos": {
-                            "x": 420.0,
-                            "y": 44.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1734,7 +1417,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "67117676\r\nZoom Meeting\r\nzoom",
+                "capture_window": "60859356\r\nZoom Meeting\r\nzoom",
                 "cut_bot": 58,
                 "cut_top": 40,
                 "include_border": false,
@@ -1759,7 +1442,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "_Desktop (remote) overlay",
+            "name": "_Screenshare-Zoom-Capture",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1776,8 +1459,8 @@
                             "x": 840.0,
                             "y": 1080.0
                         },
-                        "bounds_align": 0,
-                        "bounds_type": 2,
+                        "bounds_align": 4,
+                        "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -1824,7 +1507,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "88083698\r\nZoom\r\nzoom",
+                "capture_window": "60859359\r\nZoom\r\nzoom",
                 "show_cursor": false
             },
             "sync": 0,
@@ -1887,7 +1570,7 @@
                 },
                 "outline": false,
                 "source": "Clock",
-                "text": "We begin at xx:28"
+                "text": "We begin at xx:24"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source",
@@ -1931,7 +1614,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "_HackMD",
+            "name": "_HackMD-Capture",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -1949,7 +1632,7 @@
                             "y": 1080.0
                         },
                         "bounds_align": 4,
-                        "bounds_type": 2,
+                        "bounds_type": 0,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -2011,15 +1694,15 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item._Camera": [],
-                "libobs.hide_scene_item._HackMD": [],
+                "libobs.hide_scene_item._HackMD-Capture": [],
                 "libobs.show_scene_item._Camera": [],
-                "libobs.show_scene_item._HackMD": []
+                "libobs.show_scene_item._HackMD-Capture": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Notes",
+            "name": "HackMD",
             "prev_ver": 436273154,
             "private_settings": {},
             "push-to-mute": false,
@@ -2045,7 +1728,7 @@
                         "group_item_backup": false,
                         "id": 1,
                         "locked": false,
-                        "name": "_HackMD",
+                        "name": "_HackMD-Capture",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -2082,8 +1765,8 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.61417323350906372,
-                            "y": 0.61417323350906372
+                            "x": 0.57480317354202271,
+                            "y": 0.57480317354202271
                         },
                         "scale_filter": "disable",
                         "visible": true
