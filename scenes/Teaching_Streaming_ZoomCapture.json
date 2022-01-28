@@ -16,7 +16,7 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Mic",
-        "prev_ver": 436273154,
+        "prev_ver": 419430403,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -47,14 +47,14 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Gain",
-                "prev_ver": 436273154,
+                "prev_ver": 419430403,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
                 "push-to-talk": false,
                 "push-to-talk-delay": 0,
                 "settings": {
-                    "db": 30.0
+                    "db": 30
                 },
                 "sync": 0,
                 "versioned_id": "gain_filter",
@@ -72,14 +72,14 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Gain 2",
-                "prev_ver": 436273154,
+                "prev_ver": 419430403,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
                 "push-to-talk": false,
                 "push-to-talk-delay": 0,
                 "settings": {
-                    "db": 10.0
+                    "db": 10
                 },
                 "sync": 0,
                 "versioned_id": "gain_filter",
@@ -98,7 +98,7 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "A_Desktop_Capture",
-        "prev_ver": 436273154,
+        "prev_ver": 419430403,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -111,8 +111,8 @@
         "versioned_id": "pulse_output_capture",
         "volume": 0.036142036318778992
     },
-    "current_program_scene": "Title-Card",
-    "current_scene": "Title-Card",
+    "current_program_scene": "Instructor-Gallery",
+    "current_scene": "Instructor-Gallery",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -122,9 +122,6 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
-        },
-        "decklink_captions": {
-            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -205,19 +202,44 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "xcomposite_input",
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "_HackMDCapture",
-            "prev_ver": 436273154,
+            "name": "Affiliation Logo 2",
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "39850325\r\nNEIC AHM 2022 hackathon: online teaching - HackMD — Mozilla Firefox\r\nNavigator",
+                "file": "/u/59/tuomiss1/unix/teaching/obs-scenes/materials/affiliation-logo-2-1x1-ratio.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "xcomposite_input",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "_HackMDCapture",
+            "prev_ver": 419430403,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "capture_window": "46146421\r\nNEIC AHM 2022 hackathon: online teaching - HackMD — Mozilla Firefox\r\nNavigator",
                 "cut_top": 120,
                 "show_cursor": false
             },
@@ -237,7 +259,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "local desktop",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -268,7 +290,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "_Camera",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {
                 "show_in_multiview": false
             },
@@ -358,7 +380,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "---",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -385,7 +407,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Xephyr capture, Desktop local",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -411,29 +433,29 @@
                         "key": "OBS_KEY_NUM1"
                     }
                 ],
-                "libobs.hide_scene_item.ASC logo": [],
+                "libobs.hide_scene_item.Affiliation Logo": [],
+                "libobs.hide_scene_item.Affiliation Logo 2": [],
                 "libobs.hide_scene_item.Background color": [],
-                "libobs.hide_scene_item.CR logo": [],
                 "libobs.hide_scene_item.Clock": [],
+                "libobs.hide_scene_item.Course logo": [],
                 "libobs.hide_scene_item.TitleText": [],
                 "libobs.hide_scene_item.URL": [],
                 "libobs.hide_scene_item._HackMD-Capture": [],
-                "libobs.hide_scene_item.python-for-scicomp": [],
-                "libobs.show_scene_item.ASC logo": [],
+                "libobs.show_scene_item.Affiliation Logo": [],
+                "libobs.show_scene_item.Affiliation Logo 2": [],
                 "libobs.show_scene_item.Background color": [],
-                "libobs.show_scene_item.CR logo": [],
                 "libobs.show_scene_item.Clock": [],
+                "libobs.show_scene_item.Course logo": [],
                 "libobs.show_scene_item.TitleText": [],
                 "libobs.show_scene_item.URL": [],
-                "libobs.show_scene_item._HackMD-Capture": [],
-                "libobs.show_scene_item.python-for-scicomp": []
+                "libobs.show_scene_item._HackMD-Capture": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
             "name": "Title-Card",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -441,7 +463,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 16,
+                "id_counter": 17,
                 "items": [
                     {
                         "align": 5,
@@ -475,28 +497,28 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 383.5,
+                            "y": 303.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 7,
+                        "id": 17,
                         "locked": false,
-                        "name": "ASC logo",
+                        "name": "Affiliation Logo 2",
                         "pos": {
-                            "x": 466.0,
-                            "y": 599.5
+                            "x": 439.0,
+                            "y": 640.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.58490568399429321,
-                            "y": 0.58496731519699097
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -516,10 +538,10 @@
                         "group_item_backup": false,
                         "id": 10,
                         "locked": false,
-                        "name": "CR logo",
+                        "name": "Affiliation Logo",
                         "pos": {
-                            "x": 43.5,
-                            "y": 611.0
+                            "x": 44.5,
+                            "y": 637.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -576,8 +598,8 @@
                         "locked": false,
                         "name": "Clock",
                         "pos": {
-                            "x": 419.5,
-                            "y": 972.5
+                            "x": 428.0,
+                            "y": 993.5
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -605,7 +627,7 @@
                         "locked": false,
                         "name": "URL",
                         "pos": {
-                            "x": 420.0,
+                            "x": 408.0,
                             "y": 524.5
                         },
                         "private_settings": {},
@@ -634,8 +656,8 @@
                         "locked": false,
                         "name": "TitleText",
                         "pos": {
-                            "x": 419.5,
-                            "y": 458.5
+                            "x": 400.5,
+                            "y": 449.5
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -661,7 +683,7 @@
                         "group_item_backup": false,
                         "id": 16,
                         "locked": false,
-                        "name": "python-for-scicomp",
+                        "name": "Course logo",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -704,7 +726,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Broadcaster-Screen",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -796,7 +818,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "_Director-Screen",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {
                 "show_in_multiview": false
             },
@@ -886,7 +908,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Empty",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -924,7 +946,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Screenshare",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1006,12 +1028,12 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.ASC logo": [],
-                "libobs.hide_scene_item.CR logo": [],
+                "libobs.hide_scene_item.Affiliation Logo": [],
+                "libobs.hide_scene_item.Affiliation Logo 2": [],
                 "libobs.hide_scene_item._Camera": [],
                 "libobs.hide_scene_item._HackMD-Capture": [],
-                "libobs.show_scene_item.ASC logo": [],
-                "libobs.show_scene_item.CR logo": [],
+                "libobs.show_scene_item.Affiliation Logo": [],
+                "libobs.show_scene_item.Affiliation Logo 2": [],
                 "libobs.show_scene_item._Camera": [],
                 "libobs.show_scene_item._HackMD-Capture": []
             },
@@ -1020,7 +1042,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Instructor-Gallery",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1028,7 +1050,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 6,
+                "id_counter": 9,
                 "items": [
                     {
                         "align": 5,
@@ -1091,35 +1113,6 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": true,
-                        "name": "ASC logo",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.17735849320888519,
-                            "y": 0.17810457944869995
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
                             "x": 118.0,
                             "y": 117.0
                         },
@@ -1130,11 +1123,40 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 5,
+                        "id": 7,
                         "locked": false,
-                        "name": "CR logo",
+                        "name": "Affiliation Logo",
                         "pos": {
                             "x": 722.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 123.0,
+                            "y": 117.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 2,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Affiliation Logo 2",
+                        "pos": {
+                            "x": 599.0,
                             "y": 0.0
                         },
                         "private_settings": {},
@@ -1164,16 +1186,16 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Luma Key",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "luma_max": 1.0,
-                "luma_max_smooth": 0.0,
-                "luma_min": 0.0,
+                "luma_max": 1,
+                "luma_max_smooth": 0,
+                "luma_min": 0,
                 "luma_min_smooth": 0.070000000000000007
             },
             "sync": 0,
@@ -1192,7 +1214,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Chroma Key",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1222,7 +1244,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Image Mask/Blend",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1247,7 +1269,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Color Correction",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1276,7 +1298,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Color Correction",
-                    "prev_ver": 436273154,
+                    "prev_ver": 419430403,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -1299,16 +1321,16 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Color Key",
-                    "prev_ver": 436273154,
+                    "prev_ver": 419430403,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "brightness": 0.0,
-                        "contrast": 0.0,
-                        "gamma": 0.0,
+                        "brightness": 0,
+                        "contrast": 0,
+                        "gamma": 0,
                         "key_color": 4279900698,
                         "key_color_type": "custom",
                         "opacity": 100,
@@ -1331,7 +1353,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Image Mask/Blend",
-                    "prev_ver": 436273154,
+                    "prev_ver": 419430403,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -1356,7 +1378,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Chroma Key",
-                    "prev_ver": 436273154,
+                    "prev_ver": 419430403,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -1386,16 +1408,16 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Luma Key",
-                    "prev_ver": 436273154,
+                    "prev_ver": 419430403,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
                     "push-to-talk-delay": 0,
                     "settings": {
-                        "luma_max": 1.0,
-                        "luma_max_smooth": 0.0,
-                        "luma_min": 0.0,
+                        "luma_max": 1,
+                        "luma_max_smooth": 0,
+                        "luma_min": 0,
                         "luma_min_smooth": 0.070000000000000007
                     },
                     "sync": 0,
@@ -1410,7 +1432,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "_ZoomGalleryCapture",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1443,7 +1465,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "_Screenshare-Zoom-Capture",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1500,7 +1522,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Desktop (remote) window capture",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1521,37 +1543,12 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "ASC logo",
-            "prev_ver": 436273154,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "/home/rkdarst/git/aalto-scicomp-graphics/logo-hexagons-02-compact-background.svg.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
             "id": "text_ft2_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
             "name": "Clock",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1570,7 +1567,7 @@
                 },
                 "outline": false,
                 "source": "Clock",
-                "text": "We begin at xx:24"
+                "text": "Clock (e.g. We begin at xx:00)"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source",
@@ -1588,7 +1585,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Background color",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1615,7 +1612,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "_HackMD-Capture",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1671,15 +1668,15 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "CR logo",
-            "prev_ver": 436273154,
+            "name": "Affiliation Logo",
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/rkdarst/git/coderefinery/artwork/avatar.png"
+                "file": "/u/59/tuomiss1/unix/teaching/obs-scenes/materials/affiliation-logo-1x1-ratio.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1703,7 +1700,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "HackMD",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1789,7 +1786,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "White",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1814,7 +1811,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "URL",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1833,7 +1830,7 @@
                 },
                 "outline": false,
                 "source": "Title",
-                "text": "https://scicomp.aalto.fi"
+                "text": "Optional URL"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source",
@@ -1851,7 +1848,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TitleText",
-            "prev_ver": 436273154,
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1870,7 +1867,7 @@
                 },
                 "outline": false,
                 "source": "Clock",
-                "text": "Python for Scientific Computing"
+                "text": "Course title"
             },
             "sync": 0,
             "versioned_id": "text_ft2_source",
@@ -1887,15 +1884,17 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "python-for-scicomp",
-            "prev_ver": 436273154,
+            "name": "Course logo",
+            "prev_ver": 419430403,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/rkdarst/video/python-for-scicomp-2021/python-for-scicomp-logo-2021.png"
+                "file": "/u/59/tuomiss1/unix/teaching/obs-scenes/materials/course-logo-2x1-ratio.png",
+                "linear_alpha": false,
+                "unload": false
             },
             "sync": 0,
             "versioned_id": "image_source",
