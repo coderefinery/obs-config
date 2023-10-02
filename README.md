@@ -1,3 +1,22 @@
+# OBS setup instructions
+
+Install obs:
+
+On ubuntu
+```bash
+apt-get install obs-studio ffmpeg qtwayland5
+```
+
+To run:
+```bash
+obs
+```
+
+When it asks for a streaming key, select Twitch and enter the CodeRefinery key.
+Or for other workshops, go to your twitch, click on your profile picture and select "creator dashboard".
+You can find you key in Settings from the left side menu.
+
+
 # OBS scenes
 
 These are some scene collections for OBS.
