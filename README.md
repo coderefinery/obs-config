@@ -1,22 +1,3 @@
-# OBS setup instructions
-
-Install obs:
-
-On ubuntu
-```bash
-apt-get install obs-studio ffmpeg qtwayland5
-```
-
-To run:
-```bash
-obs
-```
-
-When it asks for a streaming key, select Twitch and enter the CodeRefinery key.
-Or for other workshops, go to your twitch, click on your profile picture and select "creator dashboard".
-You can find you key in Settings from the left side menu.
-
-
 # OBS scenes
 
 These are some scene collections for OBS.
@@ -103,7 +84,6 @@ re-broadcasting it to Zoom without having to use the Zoom recording
 (so participants can't appear or be heard in the recording).
 
 
-
 ## Status of this repository
 
 Under development, reference but may not necessarily be useful to
@@ -111,3 +91,48 @@ anyone.
 
 Right now updating is done by rkdarst updating in his own OBS and
 re-exporting.
+
+
+
+## OBS setup instructions
+
+### Install obs:
+
+On ubuntu
+```bash
+apt-get install obs-studio ffmpeg qtwayland5
+```
+
+To run:
+```bash
+obs
+```
+
+When it asks for a streaming key, select Twitch and enter the CodeRefinery key.
+If you are using your own account, go to your twitch, click on your profile picture and select
+"Creator Dashboard".
+You can find you key in Settings from the left side menu.
+
+For testing add "?Bandwidthtest=true" to the end of the key.
+
+### Clone and set up scenes
+
+1. Clone this repository and import scene collections. In OBS, got to "Scene Collection" -> "Import".
+   Navigate to the scenes folder and add the one you need (Teaching_Streaming_ZoomCapture for
+   teaching from Zoom, for example).
+
+2. Select the scene collection in the "Scene Collection" menu. The scenes menu will now show default
+   options, 
+
+3. Set up sources: 
+   On my system (Ubuntu 22.04) the imported window shares do not work, so I had to
+   create new ones. I also had to adjust cropping for each of these. It makes sense
+   To save your own config after setting these.
+   
+   Set or add sources for
+   - HackMD-capture
+   - GalleryCapture (The Zoom gallery)
+   - Screenshare-Zoom
+   - Director-Screen, if you will be teaching from the broadcast machine
+   
+
