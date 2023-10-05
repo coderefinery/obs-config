@@ -115,6 +115,7 @@ You can find you key in Settings from the left side menu.
 
 For testing add "?Bandwidthtest=true" to the end of the key.
 
+
 ### Clone and set up scenes
 
 1. Clone this repository and import scene collections. In OBS, got to "Scene Collection" -> "Import".
@@ -134,5 +135,13 @@ For testing add "?Bandwidthtest=true" to the end of the key.
    - GalleryCapture (The Zoom gallery)
    - Screenshare-Zoom
    - Director-Screen, if you will be teaching from the broadcast machine
-   
+
+### Set up OBS Tablet Remote
+
+This is optional. Our version of OBS tablet remote has quick buttons for default transitions
+for a Zoom workshop.
+
+- If you are using OBS version 27 or lower, you need to install the
+  [obs-websocket plugin](https://github.com/obsproject/obs-websocket/releases/tag/5.0.1).
+
 
