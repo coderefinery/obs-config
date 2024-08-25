@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "bwtest": false,
+        "key": "removed",
+        "server": "rtmp://live-hel.twitch.tv/app",
+        "service": "Twitch"
+    },
+    "type": "rtmp_common"
+}
