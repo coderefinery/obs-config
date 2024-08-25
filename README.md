@@ -17,11 +17,17 @@ These are some scene collections for OBS.
   * The rule of thumb is "present from your smallest screen".  This
     has the same effect.
 
-
 * These scenes tend to insert external elements, for example logos.
   These logos are referred to by absolute pathname and *not* included,
   so the scenes need modification before they will actually work.  You
   may need
+
+* You should look through things and update any paths and configs, for
+  example:
+  * Video save path
+  * Logo paths
+  * Streaming service
+  * etc...
 
 ## Common names
 
@@ -32,22 +38,22 @@ selectable layout, **sources** are items within the scene.)  We have done that h
 - `Title`: A general title card used for intros and so on.
   - `Clock`: (text that matches xx:NN, regex `([xX?]{2}:)(\d{2})(\s+|$)` )
 - `Gallery`: The gallery of presenters, mostly full screen.
-- `Local`: Local screenshare (of the local computer running OBS).
-  - `_Camera`: includes people inserted
-- `Remote`: Capture of remote screenshare (e.g. zoom screenshare
-  window)
-  - `_Camera`: includes people inserted
+- `Screenshare`: Capture of remote screenshare (e.g. zoom screenshare
+  window).  Fit the window to the screen.
+- `ScreenshareCrop`: Capture of remote screenshare, but it uses only
+  the left-hand side.
+- `ScreenshareLandscape`: Capture of remote screenshare, with settings
+  suitable for landscape view.
+- `BroadcasterScreen`: Local screenshare (of the local computer running OBS).
 - `Notes`: A screen capture of HackMD or other shared notes.
-  - `_Camera`:  includes people inserted
-- `--`: this is a placeholder scene to separate primary scenes from
-  the internal ones below.
-- `_`-prefixed scenes: these are internal scenes which get inserted
-  into other scenes.
-  - `_Camera`: Scene with camera.  Re-inserted into the abve
 
-## Included scenes
+## Included scene collections
 
 The following screens are included in this collection:
+
+### TeachingStreamingZoomv3
+
+Latest version of the teaching streaming scene collections.
 
 ### TeachingStreamingSimple
 
@@ -82,6 +88,15 @@ This is designed for recording 840x1080 demos on your local computer.
 It can also be used for recording a demo at the same time as
 re-broadcasting it to Zoom without having to use the Zoom recording
 (so participants can't appear or be heard in the recording).
+
+
+## Profiles included
+
+Profiles are settings such as canvas resolutions and encoders.
+
+### TeachingStreamingv3
+
+Latest version of teaching streaming OBS profile.
 
 
 
