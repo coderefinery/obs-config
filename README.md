@@ -51,9 +51,15 @@ selectable layout, **sources** are items within the scene.)  We have done that h
 
 The following screens are included in this collection:
 
+### TeachingStreamingZoomv4
+
+Updated for Zoom Workplace
+
 ### TeachingStreamingZoomv3
 
-Latest version of the teaching streaming scene collections.
+Latest version of the teaching streaming scene collections.  It's
+similar to the other ones, but simplified.
+
 
 ### TeachingStreamingSimple
 
@@ -94,7 +100,7 @@ re-broadcasting it to Zoom without having to use the Zoom recording
 
 Profiles are settings such as canvas resolutions and encoders.
 
-### TeachingStreamingv3
+### TeachingStreamingv4 / v3
 
 Latest version of teaching streaming OBS profile.
 
